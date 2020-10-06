@@ -1,0 +1,13 @@
+prompt = ">"
+
+class card:
+  def __init__(self, name, status, id):
+    self.name = name
+    self.status = status
+    self.id = id
+
+studcard = card("John", "student", "6489")
+
+print(prompt + studcard.name)
+print(prompt + studcard.status)
+print(prompt + studcard.id)
